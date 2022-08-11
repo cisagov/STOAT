@@ -10,7 +10,7 @@
     "@types/react": "^16.4.10",
     "@types/react-dom": "^16.0.7",
     "@types/react-select": "^2.0.10",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "bootstrap-switch-button-react": "^1.2.0",
     "chart.js": "^3.5.1",
     "crypto-js": "^3.1.9-1",
