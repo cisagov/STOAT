@@ -1,0 +1,33 @@
+{
+  "name": "stoat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "server": "node ./bin/www",
+    "client": "npm start --prefix client",
+    "start": "concurrently --raw --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "setup": "./setup.sh; npm run update",
+    "update": "npm install; cd client; npm install"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cli-progress": "^3.9.0",
+    "cookie-parser": "~1.4.4",
+    "crypto-js": "^4.1.1",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.2.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node": "^16.6.1",
+    "npm": "^7.22.0",
+    "nthline": "^1.0.2",
+    "orientjs": "^3.0.1",
+    "python-shell": "^3.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}

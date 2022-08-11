@@ -1,0 +1,439 @@
+{
+    "default": [
+        {
+            "id": "0",
+            "category": "Applicability",
+            "characteristics": [
+               {
+                    "id": "0",
+                    "characteristic": "Applicability",
+                    "total_score": "0",
+                    "weight": "0.5",
+                    "attributes": [
+                        {
+                            "attribute": "Applicability",
+                            "scores": [
+                                {
+                                    "description": "Could not apply to this configuration",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "Could apply with major changes to the configuration",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "Could apply with minor changes to the configuration",
+                                    "score": 0.7
+                                },
+                                {
+                                    "description": "Could apply with no changes to the configuration",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "Default",
+                                    "score": 1
+                                }
+                            ]
+                        }
+                    ]
+               }
+            ]
+        },
+        {
+            "id": "1",
+            "category": "Course of Action",
+            "characteristics": [
+                {
+                    "id": "1",
+                    "characteristic": "CoA Relationship",
+                    "total_score": "0",
+                    "weight": "0.5",
+                    "attributes": [
+                        {
+                            "attribute": "CoA relationship score",
+                            "scores": [
+                                {
+                                    "description": "3 or more CoA relationships for the vulnerability",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "1-2 CoA relationships for the vulnerability",
+                                    "score": 0.7
+                                },
+                                {
+                                    "description": "No CoA relationships for the vulnerability",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "Default",
+                                    "score": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "characteristic": "CoA Feasibility",
+                    "total_score": "0",
+                    "weight": "0.5",
+                    "attributes": [
+                        {
+                            "attribute": "CoA Feasibility Score",
+                            "scores": [
+                                {
+                                    "description": "CoA is deployed or scheduled to be deployed",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "CoA is available and tested for operational impact",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "CoA is available and feasible",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "CoA is available",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "No CoA available or is infeasible or not applicable",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "Default",
+                                    "score": 0.5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "category": "Malware",
+            "characteristics": [
+                {
+                    "id": "3",
+                    "characteristic": "Malware Relationship",
+                    "total_score": "0",
+                    "weight": "0.5",
+                    "attributes": [
+                        {
+                            "attribute": "Malware relationship score",
+                            "scores": [
+                                {
+                                    "description": "No malware relationships for the vulnerability",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "1 malware relationship for the vulnerability",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "2 or more malware relationships for the vulnerability",
+                                    "score": 0.9
+                                },
+                                {
+                                    "description": "Default",
+                                    "score": 0.3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "4",
+                    "characteristic": "Urgency",
+                    "total_score": "0",
+                    "weight": "0.2",
+                    "attributes": [
+                        {
+                            "attribute": "Mobility of Infection",
+                            "scores": [
+                                {
+                                    "description": "Immobile",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "Mobile via network or application",
+                                    "score": 0.5
+                                },
+                                {
+                                    "description": "Ability to jump air gap",
+                                    "score": 0.9
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0.3
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Past Incident Source/Credibility",
+                            "scores": [
+                                {
+                                    "description": "Media reporting",
+                                    "score": 0.1
+                                },
+                                {
+                                    "description": "Industry reporting",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "Cyber research industry reporting",
+                                    "score": 0.5
+                                },
+                                {
+                                    "description": "First hand analysis and reporting",
+                                    "score": 0.7
+                                },
+                                {
+                                    "description": "Intelligence Community reporting",
+                                    "score": 0.9
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0.3
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Availability",
+                            "scores": [
+                                {
+                                    "description": "Vulnerability known",
+                                    "score": 0.1
+                                },
+                                {
+                                    "description": "Exploit/malware available but not on hacker/general sites",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "Exploit/malware available on hacker sites",
+                                    "score": 0.5
+                                },
+                                {
+                                    "description": "Exploit/malware available on 'exploit framework'",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0.3
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Repeatability",
+                            "scores": [
+                                {
+                                    "description": "Low degree of repeatability (~<25%)",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "Moderate degree of repeatability (~25-50%)",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "High degree of repeatability (50-75%)",
+                                    "score": 0.5
+                                },
+                                {
+                                    "description": "Very high degree of repeatability (~>75%)",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0.3
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Portability",
+                            "scores": [
+                                {
+                                    "description": "No ability to port exploit",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "Ability to port exploit with changes within system manufacturer",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "Ability to port exploit without changes within system manufacturer",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "Ability to port exploit with changes across manufacturers",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "Ability to port exploit without changes across manufacturers",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0.3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "characteristic": "Maturity/Sophistication",
+                    "total_score": "0",
+                    "weight": "0.3",
+                    "attributes": [
+                        {
+                            "attribute": "Persistence",
+                            "scores": [
+                                {
+                                    "description": "Cannot re-establish foot-hold",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "Can re-establish foot-hold",
+                                    "score": 0.25
+                                },
+                                {
+                                    "description": "Can pivot or other methods to move",
+                                    "score": 0.5
+                                },
+                                {
+                                    "description": "Capable of sleep/hiding",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0.3
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Stealth",
+                            "scores": [
+                                {
+                                    "description": "Does not remove evidence at beginning or during operation",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "Removes evidence at installation or exit",
+                                    "score": 0.35
+                                },
+                                {
+                                    "description": "Removes evidence during operation",
+                                    "score": 0.5
+                                },
+                                {
+                                    "description": "Removes evidence at installation/exit and during operation",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0.3
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Code Maturity",
+                            "scores": [
+                                {
+                                    "description": "Monolithic code base",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "Moderate code base",
+                                    "score": 0.35
+                                },
+                                {
+                                    "description": "Small efficient code base",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "Modular or obfuscated code base",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0.3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "characteristic": "Functional Impact",
+                    "total_score": "0",
+                    "weight": "0.5",
+                    "attributes": [
+                        {
+                            "attribute": "Functional Impact",
+                            "scores": [
+                                {
+                                    "description": "Foothold on component",
+                                    "score": 0.05
+                                },
+                                {
+                                    "description": "Escalate privileges",
+                                    "score": 0.1
+                                },
+                                {
+                                    "description": "Pivot to another component",
+                                    "score": 0.15
+                                },
+                                {
+                                    "description": "Discover architecture",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "Discover process",
+                                    "score": 0.25
+                                },
+                                {
+                                    "description": "Data ex-filtration",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "Degraded resource",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "Spoof or change status",
+                                    "score": 0.55
+                                },
+                                {
+                                    "description": "Inject control command",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "Loss of situation awareness",
+                                    "score": 0.75
+                                },
+                                {
+                                    "description": "Loss of confidence",
+                                    "score": 0.9
+                                },
+                                {
+                                    "description": "Loss of control",
+                                    "score": 0.95
+                                },
+                                {
+                                    "description": "Physical damage",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0.3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

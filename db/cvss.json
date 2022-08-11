@@ -1,0 +1,190 @@
+{
+    "AV": {
+        "name": "Attack Vector",
+        "scores": {
+            "N": 0.85,
+            "A": 0.62,
+            "L": 0.55,
+            "P": 0.2
+        }
+    },
+    "AC": {
+        "name": "Attack Complexity",
+        "scores": {
+            "L": 0.77,
+            "H": 0.44
+        }
+    },
+    "PR": {
+        "name": "Privileges Required",
+        "scores": {
+            "N": 0.85,
+            "L": 0.62,
+            "H": 0.27,
+            "LC": 0.68,
+            "HC": 0.5
+        }
+    },
+    "UI": {
+        "name": "User Interaction",
+        "scores": {
+            "N": 0.85,
+            "R": 0.62
+        }
+    },
+    "S": {
+        "name": "Scope",
+        "scores": {
+            "U": false,
+            "C": true
+        }
+    },
+    "C": {
+        "name": "Confidentiality",
+        "scores": {
+            "H": 0.56,
+            "L": 0.22,
+            "N": 0
+        }
+    },
+    "I": {
+        "name": "Integrity",
+        "scores": {
+            "H": 0.56,
+            "L": 0.22,
+            "N": 0
+        }
+    },
+    "A": {
+        "name": "Availability",
+        "scores": {
+            "H": 0.56,
+            "L": 0.22,
+            "N": 0
+        }
+    },
+    "E": {
+        "name": "Exploit Code Maturity",
+        "scores": {
+            "X": 1,
+            "H": 1,
+            "F": 0.97,
+            "P": 0.94,
+            "U": 0.91
+        }
+    },
+    "RL": {
+        "name": "Remediation Level",
+        "scores": {
+            "X": 1,
+            "U": 1,
+            "W": 0.97,
+            "T": 0.96,
+            "O": 0.95
+        }
+    },
+    "RC": {
+        "name": "Report Confidence",
+        "scores": {
+            "X": 1,
+            "C": 1,
+            "R": 0.96,
+            "U": 0.92
+        }
+    },
+    "CR": {
+        "name": "Confidentiality Requirement",
+        "scores": {
+            "X": 1,
+            "H": 1.5,
+            "M": 1,
+            "L": 0.5
+        }
+    },
+    "IR": {
+        "name": "Integrity Requirement",
+        "scores": {
+            "X": 1,
+            "H": 1.5,
+            "M": 1,
+            "L": 0.5
+        }
+    },
+    "AR": {
+        "name": "Availability Requirement",
+        "scores": {
+            "X": 1,
+            "H": 1.5,
+            "M": 1,
+            "L": 0.5
+        }
+    },
+    "MAV": {
+        "name": "Modified Attack Vector",
+        "scores": {
+            "N": 0.85,
+            "A": 0.62,
+            "L": 0.55,
+            "P": 0.2
+        }
+    },
+    "MAC": {
+        "name": "Modified Attack Complexity",
+        "scores": {
+            "X": 1,
+            "L": 0.77,
+            "H": 0.44
+        }
+    },
+    "MPR": {
+        "name": "Modified Privileges Required",
+        "scores": {
+            "X": 1,
+            "N": 0.85,
+            "L": 0.62,
+            "H": 0.27,
+            "LC": 0.68,
+            "HC": 0.5
+        }
+    },
+    "MUI": {
+        "name": "Modified User Interaction",
+        "scores": {
+            "X": 1,
+            "N": 0.85,
+            "R": 0.62
+        }
+    },
+    "MS": {
+        "name": "Modified Scope",
+        "scores": {
+            "U": false,
+            "C": true
+        }
+    },
+    "MC": {
+        "name": "Modified Confidentiality",
+        "scores": {
+            "H": 0.56,
+            "L": 0.22,
+            "N": 0
+        }
+    },
+    "MI": {
+        "name": "Modified Integrity",
+        "scores": {
+            "H": 0.56,
+            "L": 0.22,
+            "N": 0
+        }
+    },
+    "MA": {
+        "name": "Modified Availability",
+        "scores": {
+            "H": 0.56,
+            "L": 0.22,
+            "N": 0
+        }
+    }
+
+}

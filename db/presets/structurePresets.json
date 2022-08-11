@@ -1,0 +1,491 @@
+{
+    "default": [
+        {
+            "id": "1",
+            "category": "STIX 2.0 - Individual Bundle",
+            "characteristics": [
+                {
+                    "id": "0",
+                    "weight": "1",
+                    "characteristic": "Metrics",
+                    "total_score": "0",
+                    "attributes": [
+                        {
+                            "attribute": "Trustworthiness",
+                            "scores": [
+                                {
+                                    "description": "Not Trustworthy (NoName Bucket of STIX)",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "Barely Trustworthy",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "More Trustworthy",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "Average Trustworthiness",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "Very Trustworthy",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "Completely Trustworthy (Unit42)",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Average Number of References per Object",
+                            "scores": [
+                                {
+                                    "description": "Zero Corroborating Sources/External Reports",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "One Corroborating Sources/External Reports",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "Two Corroborating Sources/External Reports",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "Three Corroborating Sources/External Reports",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "Four Corroborating Sources/External Reports",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "Five (Or More) Corroborating Sources/External Reports",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Validator Issues",
+                            "scores": [
+                                {
+                                    "description": "(Five or More) Warnings or ANY Errors",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "Four Warnings",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "Three Warnings",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "Two Warnings",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "One Warnings",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "No Warnings",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Average Length of Object Descriptions per Object",
+                            "scores": [
+                                {
+                                    "description": "0-4 Word Description",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "5-9 Word Description",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "10-14 Word Description",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "15-19 Word Description",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "20-24 Word Description",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "> 25 Word Description",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Average Number of Optional Fields per Object",
+                            "scores": [
+                                {
+                                    "description": "No Optional Fields",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "One Optional Field",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "Two Optional Fields",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "Three Optional Fields",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "Fiur Optional Fields",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "Five Optional Fields",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Types of Observables",
+                            "scores": [
+                                {
+                                    "description": "No Observables",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "artifact",
+                                    "score": 0.1
+                                },
+                                {
+                                    "description": "ipv4-addr, ipv6-addr",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "domain-name, url",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "email-addr, email-message",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "mac-addr",
+                                    "score": 0.5
+                                },
+                                {
+                                    "description": "directory, file, process, software",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "x509-certificate, mutex",
+                                    "score": 0.7
+                                },
+                                {
+                                    "description": "user-account",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "windows-registry-key, autonomous-system",
+                                    "score": 0.9
+                                },
+                                {
+                                    "description": "network-traffic",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Types of Relationships",
+                            "scores": [
+                                {
+                                    "description": "No Relationships",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "duplicate-of, derived-from, related-to",
+                                    "score": 0.1
+                                },
+                                {
+                                    "description": "located-at",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "impersonates",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "attributed-to, compromises, hosts, owns",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "consists-of",
+                                    "score": 0.5
+                                },
+                                {
+                                    "description": "has, delivers",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "characterizes, analysis-of",
+                                    "score": 0.7
+                                },
+                                {
+                                    "description": "authored-by, beacons-to, exfiltrates-to, communicates-with, controls, downloads, drops, exploits, originates-from, targets, uses, variant-of",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "indicates, based-on",
+                                    "score": 0.9
+                                },
+                                {
+                                    "description": "mitigates, investigates, remediates",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Number of Orphaned Objects",
+                            "scores": [
+                                {
+                                    "description": "100% Orphaned",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "90% Orphaned",
+                                    "score": 0.1
+                                },
+                                {
+                                    "description": "80% Orphaned",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "70% Orphaned",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "60% Orphaned",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "50% Orphaned",
+                                    "score": 0.5
+                                },
+                                {
+                                    "description": "40% Orphaned",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "30% Orphaned",
+                                    "score": 0.7
+                                },
+                                {
+                                    "description": "20% Orphaned",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "10% Orphaned",
+                                    "score": 0.9
+                                },
+                                {
+                                    "description": "0% Orphaned",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Overall Number of Objects",
+                            "scores": [
+                                {
+                                    "description": "1 Object",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "2 Objects",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "3 Objects",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "4 Objects",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "5 Objects",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "6 or More Objects",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Number of Relationships per Bundle",
+                            "scores": [
+                                {
+                                    "description": "No Relationships",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "1 Relationship",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "2 Relationships",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "3 Relationships",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "4 Relationships",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "5 or More Relationships",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Number of COAs per Bundle",
+                            "scores": [
+                                {
+                                    "description": "No COAs",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "1 COA",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "2 COAs",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "3 or More COAs",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Variety of Objects per Bundle",
+                            "scores": [
+                                {
+                                    "description": "All One Object Type",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "2 Object Types",
+                                    "score": 0.2
+                                },
+                                {
+                                    "description": "3 Object Types",
+                                    "score": 0.4
+                                },
+                                {
+                                    "description": "4 Object Types",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "5 Object Types",
+                                    "score": 0.8
+                                },
+                                {
+                                    "description": "6 or More Object Types",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        },
+                        {
+                            "attribute": "Number of STIX Extensions per Bundle",
+                            "scores": [
+                                {
+                                    "description": "No Extensions",
+                                    "score": 0
+                                },
+                                {
+                                    "description": "1 Extension",
+                                    "score": 0.3
+                                },
+                                {
+                                    "description": "2 Extensions",
+                                    "score": 0.6
+                                },
+                                {
+                                    "description": "3 or More Extensions",
+                                    "score": 1
+                                },
+                                {
+                                    "description": "default",
+                                    "score": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
