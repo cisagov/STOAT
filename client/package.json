@@ -20,7 +20,7 @@
     "react-chartjs-2": "^3.0.4",
     "react-dom": "^16.4.2",
     "react-hot-loader": "^4.3.3",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.1",
     "react-select": "^4.3.1",
     "react-split-pane": "^0.1.82",
     "tslib": "^1.9.3",
