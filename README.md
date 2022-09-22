@@ -1,6 +1,6 @@
 ![STOAT masthead](https://d520git.inl.gov/quasar/vme/-/raw/caleb-work/stoat-react/client/public/stoat.png)
 
-The Scoring Threat Object Analysis Tool (STOAT) web application takes software described in the STIX 2.1 format and automates an initial socre based on the software's weaknesses. 
+The Scoring Threat Objects Analysis Tool (STOAT) web application takes software described in the STIX 2.1 format and automates an initial socre based on the software's weaknesses. 
 Then, customers can edit the weakness score to best reflect their environment, notes, and considerations before its out as STIX 2.1.
 
 ## To run for the first time:
