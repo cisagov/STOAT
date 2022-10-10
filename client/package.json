@@ -25,7 +25,7 @@
     "react-split-pane": "^0.1.82",
     "tslib": "^1.9.3",
     "typescript-logging": "^0.6.2",
-    "victory": "^30.4.1",
+    "victory": "^36.6.8",
     "web-vitals": "^1.1.2"
   },
   "devDependencies": {
